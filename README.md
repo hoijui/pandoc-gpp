@@ -25,7 +25,14 @@ These dependencies will be installed (if not present) during the installation of
 
 ## Prerequisites
 
-To use `pandoc-gpp` some packages are required : **python** (version 2.6 is ok). It's needed to run `pandoc-gpp` (which is written in python), **python-dev**, **python-cairo**, **gpp**, **build-essential** (you need a gcc compiler), **libxslt1-dev** (cairosvg needs lxml which needs xslt and libxml2)
+To use `pandoc-gpp` some packages are required :
+
+* **python** (version 2.6 is ok) is needed to run `pandoc-gpp` (which is written in python)
+* **python-dev**
+* **python-cairo**
+* **gpp**
+* **build-essential** (you need a gcc compiler)
+* **libxslt1-dev** (`cairosvg` needs `lxml` which needs `xslt` and `libxml2`)
 
 ## Installation
 
@@ -43,4 +50,4 @@ However, some macros only include code (so it's up to you to make included code 
 
 # License
 
-This software is licensed under the AGPL v3.0 License. See the `COPYING` file in the top distribution directory for the full license text.
+This software is licensed under the AGPL v3.0 License. See the [COPYING](COPYING) file in the top distribution directory for the full license text.
